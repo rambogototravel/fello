@@ -1,0 +1,36 @@
+{
+  "name": "fello",
+  "version": "1.0.11",
+  "description": "Front End Integrated Solution fro J2EE FreeMarker.",
+  "main": "fello.js",
+  "repository": {
+    "type": "git",
+    "url": "https://git.oschina.net/rambogototravel/fello.git"
+  },
+  "bin": {
+    "fello": "bin/fello"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nfis",
+    "freemarker"
+  ],
+  "author": "Rambo Yang",
+  "license": "ISC",
+  "dependencies": {
+    "fis": "1.9.46",
+    "fis-packager-depscombine": "~0.0.8",
+    "fis-parser-bdtmpl": "0.0.3",
+    "fis-parser-less": "~0.1.1",
+    "fis-parser-po": "0.0.1",
+    "fis-postprocessor-jswrapper": "0.0.8",
+    "fis-prepackager-derived": "~0.0.2",
+    "fis-preprocessor-components": "^1.0.3",
+    "jello-command-server": "^0.1.0",
+    "jello-postprocessor-amd": "~0.1.0",
+    "jello-postprocessor-require-async": "~0.1.0",
+    "jello-preprocessor-extlang": "~0.1.0"
+  }
+}
